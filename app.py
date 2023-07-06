@@ -25,6 +25,7 @@ YOUR_SHEET_ID='1lS9Y43bYYvEPlgUbi4DwFKj9yWGTeU0XUtUksNdg0qQ'
 r = requests.get(f'https://docs.google.com/spreadsheet/ccc?key={YOUR_SHEET_ID}&output=csv')
 open('dataset.csv', 'wb').write(r.content)
 df = pd.read_csv('dataset.csv')
+df
 df.head()
 
 # Print results.
