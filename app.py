@@ -27,6 +27,6 @@ open('dataset.csv', 'wb').write(r.content)
 df = pd.read_csv('dataset.csv')
 df.head()
 
-# # Print results.
-# for row in df.itertuples():
-#     st.write(f"{row.name} has a :{row.pet}:")
+# Print results.
+for row in df.itertuples():
+    st.write(f"{row.name} has a :{row.pet}:")
