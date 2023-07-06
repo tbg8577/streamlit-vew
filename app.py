@@ -20,7 +20,8 @@ st.secrets["public_gsheets_url"]
 # df = load_data(st.secrets["public_gsheets_url"])
 
 # [김태구 선배] [오후 6:59] https://docs.google.com/spreadsheets/d/1lS9Y43bYYvEPlgUbi4DwFKj9yWGTeU0XUtUksNdg0qQ/edit?usp=sharing
-YOUR_SHEET_ID='1lS9Y43bYYvEPlgUbi4DwFKj9yWGTeU0XUtUksNdg0qQ'
+# https://docs.google.com/spreadsheets/d/14LqxPgN1HInUXAQdRafjGjWw2_f2_5nbxi9jmWObdP4/edit?usp=sharing
+YOUR_SHEET_ID='14LqxPgN1HInUXAQdRafjGjWw2_f2_5nbxi9jmWObdP4'
 
 r = requests.get(f'https://docs.google.com/spreadsheet/ccc?key={YOUR_SHEET_ID}&output=csv')
 open('dataset.csv', 'wb').write(r.content)
