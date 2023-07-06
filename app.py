@@ -22,7 +22,7 @@ st.secrets["public_gsheets_url"]
 # https://docs.google.com/spreadsheets/d/1lS9Y43bYYvEPlgUbi4DwFKj9yWGTeU0XUtUksNdg0qQ/edit?usp=sharing
 # https://docs.google.com/spreadsheets/d/14LqxPgN1HInUXAQdRafjGjWw2_f2_5nbxi9jmWObdP4/edit?usp=sharing
 
-YOUR_SHEET_ID='1lS9Y43bYYvEPlgUbi4DwFKj9yWGTeU0XUtUksNdg0qQ'
+YOUR_SHEET_ID='14LqxPgN1HInUXAQdRafjGjWw2_f2_5nbxi9jmWObdP4'
 
 r = requests.get(f'https://docs.google.com/spreadsheet/ccc?key={YOUR_SHEET_ID}&output=csv')
 open('dataset.csv', 'wb').write(r.content)
