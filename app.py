@@ -27,9 +27,9 @@ YOUR_SHEET_ID='14LqxPgN1HInUXAQdRafjGjWw2_f2_5nbxi9jmWObdP4'
 r = requests.get(f'https://docs.google.com/spreadsheet/ccc?key={YOUR_SHEET_ID}&output=csv')
 open('dataset.csv', 'wb').write(r.content)
 df = pd.read_csv('dataset.csv')
-pd = df.drop(df.columns[[0,3,4,5]], axis=1)
+df = df.drop(df.columns[[0,3,4,5]], axis=1)
 pd.options.display.max_rows = 100
-df.options.display.max_columns = 4
+pd.options.display.max_columns = 4
 
 df
 
