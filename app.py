@@ -27,8 +27,8 @@ YOUR_SHEET_ID='14LqxPgN1HInUXAQdRafjGjWw2_f2_5nbxi9jmWObdP4'
 r = requests.get(f'https://docs.google.com/spreadsheet/ccc?key={YOUR_SHEET_ID}&output=csv')
 open('dataset.csv', 'wb').write(r.content)
 df = pd.read_csv('dataset.csv')
-df = pd.read_csv(df.columns[[0,3,4,5]], axis=1)
-df
+df2 = pd.read_csv(df.columns[[0,3,4,5]], axis=1)
+df2
 
 # # Print results.
 # for row in df.itertuples():
