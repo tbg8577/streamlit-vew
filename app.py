@@ -6,7 +6,7 @@ import requests
 # view
 # st.bar_chart(view)
 
-st.secrets["public_gsheets_url"]
+# st.secrets["public_gsheets_url"]
 
 # Read in data from the Google Sheet.
 # Uses st.cache_data to only rerun when the query changes or after 10 min.
