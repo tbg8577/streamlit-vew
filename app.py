@@ -29,9 +29,9 @@ df = pd.read_csv('dataset.csv')
 df
 df.head()
 
-st.text_input('이름을 입력하세요!') 
+name = st.text_input('이름을 입력하세요!') 
 
-st.text_input('전화번호 뒷자리 4자리') 
+tel_num = st.text_input('전화번호 뒷자리 4자리') 
 
 # # Print results.
 # for row in df.itertuples():
