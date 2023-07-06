@@ -20,7 +20,7 @@ st.secrets["public_gsheets_url"]
 # df = load_data(st.secrets["public_gsheets_url"])
 
 # https://docs.google.com/spreadsheets/d/1lS9Y43bYYvEPlgUbi4DwFKj9yWGTeU0XUtUksNdg0qQ/edit?usp=sharing
-# https://docs.google.com/spreadsheets/d/14LqxPgN1HInUXAQdRafjGjWw2_f2_5nbxi9jmWObdP4/edit?usp=sharing
+# https://docs.google.com/spreadsheets/d/1lS9Y43bYYvEPlgUbi4DwFKj9yWGTeU0XUtUksNdg0qQ/edit?usp=sharing
 
 YOUR_SHEET_ID='14LqxPgN1HInUXAQdRafjGjWw2_f2_5nbxi9jmWObdP4'
 
