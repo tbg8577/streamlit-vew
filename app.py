@@ -12,14 +12,14 @@ st.secrets["public_gsheets_url"]
 # Uses st.cache_data to only rerun when the query changes or after 10 min.
 
 # -------------------
-@st.cache_data(ttl=6000000)
+# @st.cache_data(ttl=6000000)
 # def load_data(sheets_url):
 #     csv_url = sheets_url.replace("/edit#gid=", "/export?format=csv&gid=")
 #     return pd.read_csv(csv_url)
 
 # df = load_data(st.secrets["public_gsheets_url"])
 
-# https://docs.google.com/spreadsheets/d/1lS9Y43bYYvEPlgUbi4DwFKj9yWGTeU0XUtUksNdg0qQ/edit?usp=sharing
+# https://docs.google.com/spreadsheets/d/14LqxPgN1HInUXAQdRafjGjWw2_f2_5nbxi9jmWObdP4/edit?usp=sharing
 # https://docs.google.com/spreadsheets/d/1lS9Y43bYYvEPlgUbi4DwFKj9yWGTeU0XUtUksNdg0qQ/edit?usp=sharing
 
 YOUR_SHEET_ID='14LqxPgN1HInUXAQdRafjGjWw2_f2_5nbxi9jmWObdP4'
