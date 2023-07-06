@@ -29,6 +29,10 @@ df = pd.read_csv('dataset.csv')
 df
 df.head()
 
+st.text_input('이름을 입력하세요!') 
+
+st.text_input('전화번호 뒷자리 4자리') 
+
 # # Print results.
 # for row in df.itertuples():
 #     st.write(f"{row.name} has a :{row.pet}:")
