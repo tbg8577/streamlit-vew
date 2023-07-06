@@ -28,11 +28,6 @@ r = requests.get(f'https://docs.google.com/spreadsheet/ccc?key={YOUR_SHEET_ID}&o
 open('dataset.csv', 'wb').write(r.content)
 df = pd.read_csv('dataset.csv')
 df
-df.head()
-
-name = st.text_input('이름을 입력하세요!') 
-
-tel_num = st.text_input('전화번호 뒷자리 4자리') 
 
 # # Print results.
 # for row in df.itertuples():
