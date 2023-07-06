@@ -6,7 +6,7 @@ import streamlit as st
 # view
 # st.bar_chart(view)
 
-public_gsheets_url = "https://docs.google.com/spreadsheets/d/1T50IexdJ9h4m7eetoo8JUfXfq1sb6mYBXFZiPUftAUQ/edit?usp=sharing"
+# public_gsheets_url = "https://docs.google.com/spreadsheets/d/1T50IexdJ9h4m7eetoo8JUfXfq1sb6mYBXFZiPUftAUQ/edit?usp=sharing"
 # public_gsheets_url
 
 # Read in data from the Google Sheet.
